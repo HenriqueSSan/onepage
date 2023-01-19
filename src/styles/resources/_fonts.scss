@@ -1,0 +1,13 @@
+@use '../utils/temp/fonts' as font;
+
+@each $name, $value in font.$font-family {
+  .font-family-#{$name} {
+    font-family: #{$value}, Arial, Helvetica, sans-serif;
+  }
+}
+
+@each $name in font.$font-weight {
+  .weight-#{$name} {
+    font-weight: #{$name};
+  }
+}
