@@ -17,8 +17,21 @@
   &__container {
     height: 100%;
 
+    padding: 0 20px;
+
     @include mq('md') {
+      width: fluid(1042px, 1280px);
+      margin: 0 auto;
+      padding: 0;
       flex-direction: row;
+    }
+
+    @include mq('xl') {
+      width: fluid(1242px, 1920px);
+    }
+
+    @include mq('xxl') {
+      width: fluid(1816px, 2500px);
     }
   }
 }

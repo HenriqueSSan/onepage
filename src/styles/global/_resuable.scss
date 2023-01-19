@@ -12,7 +12,7 @@
   }
 
   @include mix.mq('xl') {
-    width: function.fluid(1236px, 1920px);
+    width: function.fluid(1242px, 1920px);
   }
 
   @include mix.mq('xxl') {
@@ -33,16 +33,16 @@
     font-size: 20px;
     line-height: 24px;
 
+    color: #ffffff;
+    background-color: #6c63ff;
+    transition: 300ms ease-in;
+
     @include mix.mq('xxl') {
       font-size: 24px;
       line-height: 28px;
       padding: 0 77.5px;
       height: 64px;
     }
-
-    color: #ffffff;
-    background-color: #6c63ff;
-    transition: 300ms ease-in;
 
     &:hover {
       background-color: #000000;

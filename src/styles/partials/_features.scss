@@ -1,0 +1,29 @@
+@import '../utils/helpers/zexport.scss';
+
+.features {
+  width: 100%;
+
+  margin: 75px 0;
+
+  @include mq('md') {
+    margin-bottom: 149px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+
+    @include mq('md') {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include mq('lg') {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include mq('xl') {
+      gap: 68px 111px;
+    }
+  }
+}
