@@ -1,0 +1,7 @@
+@function fluid($width, $design-width) {
+  $width: calc($width / $design-width * 100);
+
+  $width: quote($width + '%');
+
+  @return unquote($width);
+}
