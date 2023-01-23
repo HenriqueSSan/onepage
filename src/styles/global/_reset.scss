@@ -19,8 +19,21 @@ ol {
   list-style: none;
 }
 
+input,
+textarea {
+  border: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
 .btn,
 button {
   border: none;
   cursor: pointer;
+}
+
+fieldset {
+  border: none;
 }

@@ -31,7 +31,7 @@
     }
 
     @include mq('xxl') {
-      width: fluid(1816px, 2500px);
+      width: fluid(1822px, 2500px);
     }
   }
 }
@@ -89,12 +89,16 @@
   }
 
   @include mq('xl') {
-    width: fluid(389px, 1236px);
+    width: fluid(389px, 1242px);
+
+    .hero__title {
+      width: auto;
+    }
   }
 
   @include mq('xxl') {
     .hero__title {
-      font-size: 48px;
+      font-size: 54px;
     }
 
     .hero__description {
@@ -119,6 +123,6 @@
   }
 
   @include mq('xl') {
-    width: fluid(500px, 1236px);
+    width: fluid(500px, 1242px);
   }
 }
