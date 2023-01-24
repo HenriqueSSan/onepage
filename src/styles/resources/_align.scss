@@ -1,5 +1,11 @@
-.d-flex {
-  display: flex;
+.d {
+  &-block {
+    display: block;
+  }
+
+  &-flex {
+    display: flex;
+  }
 }
 
 .align-items-center {
@@ -10,6 +16,18 @@
   justify-content: space-between;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .flex-dir-col {
   flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: end;
 }
