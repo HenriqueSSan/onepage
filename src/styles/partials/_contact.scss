@@ -1,0 +1,113 @@
+@import '../utils/helpers/zexport.scss';
+
+.contact {
+  width: 100%;
+  min-height: 700px;
+  padding: 83px 0 56px;
+
+  &__title {
+    font-size: 32px;
+    line-height: 40.22px;
+  }
+
+  @include mq('md') {
+    min-height: 750px;
+  }
+
+  @include mq('xxl') {
+    &__title {
+      font-size: 48px;
+      line-height: 56.22px;
+    }
+  }
+}
+
+.contact__form {
+  width: 100%;
+
+  @include mq('md') {
+    width: fluid(470px, 1042px);
+    margin: 0 auto;
+  }
+}
+
+.contact__form {
+  fieldset {
+    margin-top: 36px;
+    gap: 20px;
+  }
+
+  .btn {
+    width: 100%;
+    margin-top: 45px;
+  }
+}
+
+.contact__form {
+  label {
+    position: relative;
+    width: 100%;
+    display: block;
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 20px 11.91px 18px;
+
+      font-family: 'Lato', Arial, Helvetica, sans-serif;
+      border-radius: 6px;
+      background-color: #ffffff;
+
+      font-size: 18px;
+      line-height: 21.6px;
+
+      @include mq('xl') {
+        padding: 21px 15px 22px;
+      }
+
+      @include mq('xxl') {
+        font-size: 24px;
+        line-height: 27.6px;
+      }
+
+      &::placeholder {
+        color: #6e7275bd;
+      }
+
+      &.contact__input--error {
+        border: 1px solid #ff0000;
+      }
+    }
+
+    textarea {
+      min-height: 150px;
+
+      @include mq('md') {
+        min-height: 165px;
+      }
+    }
+  }
+}
+
+.contact__form {
+  label {
+    textarea ~ .contact__view--length {
+      position: absolute;
+      bottom: 20px;
+      opacity: 0;
+      right: 11.91px;
+      font-size: 12px;
+      transition: opacity 300ms ease-in;
+    }
+
+    textarea:focus ~ .contact__view--length {
+      opacity: 1;
+    }
+  }
+}
+
+.contact__message--error {
+  width: 100%;
+  margin-bottom: 10px;
+  color: #ff0000;
+}
