@@ -57,7 +57,7 @@ Os Requisitos cobrados serão:
 
 - URL da solução: [LINK](https://github.com/HenriqueSSan/jordanshoes)
 - Demostrativo da solução: [LINK](https://jordanshoes-xi.vercel.app)
-- Design [Link](https://www.figma.com/file/fzm9YLQCbT80bshAe8xpoB/Jordanshoes?node-id=4%3A2&t=hdLO78mwCfllF4O7-1)
+- Design [Link](https://www.figma.com/file/f3NOX57F2W2HQSVCw53vlz/Onepage?node-id=1%3A371&t=tucDFXjs6ifDKEje-0)
 
 [<<< TOP](#contents)
 
